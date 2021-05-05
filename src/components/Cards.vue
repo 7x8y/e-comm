@@ -8,7 +8,7 @@
     tag="article"
     style="width: 18rem;margin: 0.5rem;"
     class="mb-2"
-  >    <b-card-img src:post.imgURL></b-card-img>
+  >    <b-card-img :src="post.imgURL"></b-card-img>
 
   <b-card-title>{{post.title}}</b-card-title>
 
